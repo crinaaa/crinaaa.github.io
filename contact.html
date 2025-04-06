@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirurgie Robotică</title>
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+
+
+</head>
+<body>
+    <!-- Bara de navigare -->
+    <nav>
+        <div class="logo">Chirurgie Robotică</div>
+        <ul>
+            <li><a href="index.html" style="font-size: 23px; font-family:Arial, Helvetica, sans-serif;">Acasă</a></li>
+            <li><a href="istoric.html" style="font-size: 23px; font-family:Arial, Helvetica, sans-serif;">Istoric</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn" style="font-size: 23px; font-family:Arial, Helvetica, sans-serif;">Utilizări</a>
+                <div class="dropdown-content">
+                    <a href="oftalmo.html">Chirurgie Oftalmologică</a>
+                    <a href="orto.html">Chirurgie Ortopedică</a>
+                    <a href="cardio.html">Chirurgie Cardiovasculară</a>
+                </div>
+            </li>
+            <li><a href="gallery.html" style="font-size: 23px; font-family:Arial, Helvetica, sans-serif;">Galerie</a></li>
+            <li><a href="contact.html" style="font-size: 23px; font-family:Arial, Helvetica, sans-serif;">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Secțiune Contact -->
+    <section class="contact">
+        <h2>Contactează-ne</h2>
+
+        <!-- Formul de Contact -->
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="question">Întrebare:</label>
+                <textarea id="question" name="question" rows="4" required></textarea>
+
+                <button type="submit">Trimite</button>
+            </form>
+        </div>
+
+        <!-- Detalii de Contact -->
+        <div class="contact-info">
+            <p>Email: contact@chirurgierobotica.com</p>
+            <p>Telefon: +40 123 456 789</p>
+        </div>
+
+        
+    </section>
+</body>
+</html>

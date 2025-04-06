@@ -1,0 +1,102 @@
+.content-box {
+    background: rgba(0, 74, 173, 0.1); 
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 85%; 
+    margin: 30px auto;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.content-box p {
+    font-size: 1.3em;
+    color: #222;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+@media (max-width: 1024px) {
+    .content-box {
+        max-width: 90%; 
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-box {
+        max-width: 95%; 
+        padding: 20px;
+    }
+
+    .content-box p {
+        font-size: 1.1em;
+    }
+}
+
+
+.hero {
+    background-color: #e9ecef;
+    padding: 60px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #007BFF;
+    font-size: 3em; 
+}
+
+.hero p {
+    font-size: 1.3em; 
+}
+
+.history-section {
+    background-color: #fff;
+    padding: 60px 20px;
+    border-top: 2px solid #007BFF;
+    margin: 20px 0;
+}
+
+.history-section h2 {
+    color: #007BFF;
+    font-size: 2.5em; 
+    margin-bottom: 20px;
+}
+
+.history-section h3 {
+    font-size: 2em; 
+    margin-top: 20px;
+}
+
+.history-section div {
+    font-size: 1.3em; 
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify; 
+}
+
+
+.section-title {
+    color: #007BFF;
+    font-size: 2.5em; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.introducere-title {
+    color: #1E90FF; 
+    font-size: 36px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.introduction, .history-section {
+    background-color: #f4f4f9; 
+    padding: 20px;
+    border-radius: 10px; /
+}
+
+.introduction p, .history-section p {
+    text-align: justify;
+}
